@@ -33,8 +33,7 @@ export default function TodoForm(props) {
         id="item"
         name="todo"
         value={value}
-        label="New task name"
-        variant="outlined"
+        placeholder="New task name"
         endAdornment={
           <InputAdorment>
             <IconButton type="submit">
